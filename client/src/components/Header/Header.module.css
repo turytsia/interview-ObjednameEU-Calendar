@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    color: var(--gray);
+    border-radius: 50%;
+    padding: 4px;
+    width: 40px;
+    height: 40px;
+    aspect-ratio: 1;
+}
+
+.link:hover {
+    background-color: var(--hover);
+}
+
+.link svg {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+.linkActive {
+    color: var(--header-link-active);
+}
+
+.link span {
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    font-size: 8px;
+    color: white;
+    background-color: var(--header-label-color);
+    width: 10px;
+    height: 11px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    padding: 1px;
+}

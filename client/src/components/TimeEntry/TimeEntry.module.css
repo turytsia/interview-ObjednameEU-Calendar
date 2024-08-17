@@ -1,0 +1,19 @@
+.capacityLabel {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    font-size: 8px;
+}
+
+.button:hover {
+    border-bottom: 3px solid var(--gray) !important;
+}
+
+.button {
+    background-color: #fcfcfc;
+    border: 3px solid transparent !important;
+}
+
+.buttonReserved {
+    border-bottom: 3px solid var(--time-entry-reserved) !important;
+}

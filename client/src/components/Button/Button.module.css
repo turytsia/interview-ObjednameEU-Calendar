@@ -1,0 +1,7 @@
+.container {
+    border: none;
+    padding: 12px 6px;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+}

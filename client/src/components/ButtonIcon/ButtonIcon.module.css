@@ -1,0 +1,25 @@
+.container {
+    border: none;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    color: var(--gray);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    aspect-ratio: 1;
+    background-color: transparent;
+}
+
+.container svg {
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+.container:hover {
+    background-color: var(--hover);
+}
